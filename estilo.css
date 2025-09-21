@@ -4,7 +4,6 @@ background-image: url("https://64.media.tumblr.com/de73410d6d50f5a962abe9438059e
 background-repeat: repeat-y;
 background-position-x: right;
 background-blend-mode:color-dodge;
-
 }
 
 .dokdo-regular {
@@ -19,32 +18,48 @@ background-blend-mode:color-dodge;
   font-style: normal;
 }
 
-#margen {
-color:aliceblue;
-text-align: center;
+.barriecito-regular {
+  font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.coral-pixels-regular {
+  font-family: "Coral Pixels", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+
+.margen {
+color: lavender;
 }
 
 #who {
-   font-family: "Dokdo", system-ui;
-   color: white;
-   font-size: 5em;
+   font-family: "Barriecito", system-ui;
+   color: lavender;
+   font-size: 2em;
    text-align: center;
 }
 
 #am {
-   font-family: "Dokdo", system-ui;
-   color: darkslateblue;
-   font-size: 5em;
+   font-family: "Barriecito", system-ui;
+   color: lavender;
+   font-size: 2em;
    position: absolute;
-   top: 15%;
+   top: 30%;
    left: 40%;
 }
 
 #i {
-   font-family: "Dokdo", system-ui;
+   font-family: "Barriecito", system-ui;;
    color: darkslateblue;
-   font-size: 5em;
+   font-size: 3em;
    position: absolute;
-   top: 15%;
+   top: 30%;
    right: 40%;
 }
+
+p {
+color: black;
+}  
