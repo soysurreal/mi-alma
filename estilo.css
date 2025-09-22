@@ -6,26 +6,9 @@ background-position-x: right;
 background-blend-mode:color-dodge;
 }
 
-.dokdo-regular {
-  font-family: "Dokdo", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.special-elite-regular {
-  font-family: "Special Elite", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
 
 .barriecito-regular {
   font-family: "Barriecito", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.coral-pixels-regular {
-  font-family: "Coral Pixels", serif;
   font-weight: 400;
   font-style: normal;
 }
