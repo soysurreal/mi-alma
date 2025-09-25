@@ -1,35 +1,100 @@
 body {
 height: 100vh;
-background-image: url("fotos/golf.jpg"); 
+background-color:powderblue;
 background-repeat: no-repeat;
 background-size: cover;
 }
 
-.rombo {
-  width: 5%;
-    height: 5%;
-    background-color: oldlace;
-    border: 1px solid royalblue;
-    position: absolute;
+.pasto {
+position:fixed;
+height: 50vh;
+width: 80vh;
+bottom: 0;
+right:0vh;
+z-index:5;
+}
+
+.pasto1 {
+position:fixed;
+height: 50vh;
+width: 80vh;
+bottom: 0;
+left: 0vh;
+z-index:5;
+}
+
+.rio {
+position:fixed;
+width: 50vh;
+bottom: 0;
+left: 75vh;
+z-index: 4;
+}
+
+.ecope { 
+position: fixed;
+width: 90vh;
+bottom: 22vh;
+right: 122vh;
+z-index: 5;
+}
+
+.ecope1 { 
+position: fixed;
+width: 90vh;
+bottom: 22vh;
+left: 65vh;
+z-index: 5;
+}
+
+.ecope2 { 
+position: fixed;
+width: 90vh;
+bottom: 22vh;
+left: 140vh;
+z-index: 5;
+}
+
+.cristo {
+position: fixed;
+width: 30vh;
+bottom: 15vh;
+left: 46vh;
+z-index: 2;
+}
+
+.chigui {
+position: fixed;
+width: 20vh;
+bottom: 1vh;
+left: 75vh;
+z-index: 6;
+}
+
+.iguana {
+position: fixed;
+width: 28vh;
+bottom: 26vh;
+left: 125vh;
+z-index: 4;
 }
 
 .SUNRAYS {
-  position: absolute;
-  top: 140px;
-  right: 320px;
-  width: 350px; 
-  z-index: 1;
+  position: fixed;
+  width: 30vh; 
+  top: 8vh;
+  right: 35vh;
+  z-index: 4;
   animation: girar 2s linear infinite;
   transform-origin: center;
 }
 
-
 .SOL {
-  position: absolute;
-  top: 225px;   /* ajusta para centrar dentro de los rayos */
-  right: 405px;
-  width: 180px; 
-  z-index: 2;
+  position: fixed;
+  width: 14vh; 
+  top: 16vh;   
+  right: 43vh;
+  z-index: 5;
   mix-blend-mode:luminosity;
   animation: parpadeo-fuerte 0.5s steps(1) infinite;
 }
@@ -42,4 +107,22 @@ background-size: cover;
 @keyframes girar {
   from { transform: rotate(0deg); }
   to   { transform: rotate(360deg); }
+}
+
+.corrupto1{
+position: fixed;
+width: 10vh;
+left: 10vh;
+}
+
+.corrupto2{
+position: fixed;
+width: 10vh;
+left: 20vh;
+}
+
+.corrupto3{
+position: fixed;
+width: 10vh;
+left: 30vh;
 }
