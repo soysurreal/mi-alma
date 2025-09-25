@@ -55,13 +55,46 @@ left: 140vh;
 z-index: 5;
 }
 
+
+
 .cristo {
-position: fixed;
-width: 30vh;
-bottom: 15vh;
-left: 46vh;
-z-index: 2;
+  position: fixed;
+  width: 30vh;
+  bottom: 15vh;
+  left: 46vh;
+  z-index: 2;
 }
+
+
+.speech-bubble {
+  position: fixed;
+  bottom: 75vh;       
+  left: 55vh;    
+  background: rgb(248, 193, 49);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 3vh 3vh;
+  border-radius: 3vh;
+  white-space: nowrap;
+  display: none;
+  z-index: 20; 
+}
+
+.speech-bubble::after {
+  content: "";
+  position: absolute;
+  bottom: -1vh;         /* debajo de la burbuja */
+  left: 1vh;            /* hacia la izquierda */
+  border-left: 3vh solid transparent;
+  border-right: 3vh solid transparent;
+  border-top: 3vh solid rgb(248, 193, 49);
+}
+
+.speech-bubble.active {
+  display: block;
+}
+
+
+
 
 .chigui {
 position: fixed;
@@ -109,6 +142,7 @@ z-index: 4;
   to   { transform: rotate(360deg); }
 }
 
+
 .corrupto1 {
 position: fixed;
 width: 30vh;
@@ -132,6 +166,7 @@ bottom: 10vh;
 right: 170vh;
 z-index: 9;
 }
+
 
 .ayunta {
 position: fixed;
