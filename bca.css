@@ -109,20 +109,44 @@ z-index: 4;
   to   { transform: rotate(360deg); }
 }
 
-.corrupto1{
+.corrupto1 {
 position: fixed;
-width: 10vh;
-left: 10vh;
+width: 30vh;
+bottom: 0;
+right: 160vh;
+z-index:8;
 }
 
-.corrupto2{
+.corrupto2 {
 position: fixed;
-width: 10vh;
-left: 20vh;
+width: 25vh;
+bottom: 9vh;
+right: 145vh;
+z-index: 7;
 }
 
-.corrupto3{
+.corrupto3 {
 position: fixed;
-width: 10vh;
-left: 30vh;
+width: 50vh;
+bottom: 10vh;
+right: 170vh;
+z-index: 9;
 }
+
+.ayunta {
+position: fixed;
+width: 50vh;
+bottom: 5vh;
+right: 150vh;
+z-index:5;
+}
+
+.dinero {
+position: fixed;
+height: 50vh;
+width: 65vh;
+bottom: 1vh;
+right: 140vh;
+z-index: 6;
+}
+
